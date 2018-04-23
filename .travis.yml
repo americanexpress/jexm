@@ -1,0 +1,20 @@
+language: java
+
+cache:
+  directories:
+    - $HOME/.m2
+
+jdk:
+  - openjdk8
+  - oraclejdk8
+  - oraclejdk9
+
+script:
+  - mvn clean test
+
+deploy:
+  provider: script
+  script: mvn clean deploy --settings=".travis.settings.xml"
+  on:
+    tags: true
+    jdk: oraclejdk8
