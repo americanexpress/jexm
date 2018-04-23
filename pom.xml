@@ -28,4 +28,12 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>bintray-americanexpress-maven</id>
+            <name>americanexpress-maven</name>
+            <url>https://api.bintray.com/maven/americanexpress/maven/com.americanexpress.jexm</url>
+        </repository>
+    </distributionManagement>
+
 </project>
