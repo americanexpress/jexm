@@ -32,7 +32,7 @@
         <repository>
             <id>bintray-americanexpress-maven</id>
             <name>americanexpress-maven</name>
-            <url>https://api.bintray.com/maven/americanexpress/maven/com.americanexpress.jexm</url>
+            <url>https://api.bintray.com/maven/americanexpress/maven/com.americanexpress.jexm/;publish=1</url>
         </repository>
     </distributionManagement>
 
